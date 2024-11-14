@@ -1,15 +1,53 @@
 header{
     background-color: black;
+    padding-left: 80px;
+    padding-top: 10px;
+    
 }
 h1{
     color: red;
 }
 body{
+    margin: 0px;
     background-color: black;
 }
 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
 p{
+    width: 500px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+}
+hr{
+    height: 6px;
+    background-color: aliceblue;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.carrossel-de-filmes{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px;
+}
+.filmes{
+    display: flex;
+    gap: 10px;
+}
+.filmes img{
+    width: 500px;
+}
+.fimes img:hover{
+    border: 5px solid red;
 }
